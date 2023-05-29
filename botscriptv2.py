@@ -77,7 +77,7 @@ def text_to_speech(text):
         
      audio = generate(
          text=text,
-         voice = "Don2",
+         voice = "Domi",
          model = "eleven_monolingual_v1",
         
          )
@@ -95,7 +95,7 @@ text_to_speech.initial_delay_executed = False
 def process_input(text):
     # Process input text and generate a response
     logging.info('Processing input: %s', text)
-    prompt = "In the most tremendous way, let me tell you, as a man who speaks just like Donald Trump, " + text + " - nobody does it better, believe me!"
+    prompt = "In the most humorous tremendous way, let me tell you, as a man who speaks just like Donald Trump, " + text + " - nobody does it better, believe me!"
 
     try:
         response = openai.Completion.create(
