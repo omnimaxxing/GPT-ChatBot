@@ -30,21 +30,21 @@ The repository contains a single Python script and config file that includes all
 - Python 3.7 or later
 - The following Python packages: pvporcupine, numpy, pyaudio, psutil, openai, speech_recognition, pygame, elevenlabs.
 - API keys for ElevenLabs and OpenAI and Porcupine/PicoVoice
-- MP3 files for the sound effects.
+- Audio files for the sound effects.
 
 ## Setup
 
 1. Clone the repository to your local machine.
 2. Install the required Python packages.
 3. Place your API keys in the `config.ini` file.
-4. Place MP3 files in the same directory as the python file.
+4. Place audio files in the same directory as the python file.
 
 ## Usage
 
 1. Run the script using Python 3.7 or later.
 2. Say the word "Computer" to activate the assistant.
 3. Speak your command or question.
-4. The assistant will respond in the cloned voice, accompanied by relevant sound effects.
+4. The assistant will respond in the specified voice model, accompanied by relevant sound effects.
 5. Modify the script to utilize GPT-4 if you have GPT-4 access.
 
 ## Sound Effects
