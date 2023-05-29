@@ -1,10 +1,10 @@
 # Python Voice Assistant with OpenAI and Eleven Labs
 
-This repository contains a Python-based voice assistant that uses sound effects to add a level of realism to its interactions. The assistant uses OpenAI's GPT-4 model for generating responses and the ElevenLabs API for voice output.
+This repository contains a Python-based voice assistant that uses sound effects to add a level of realism to its interactions. The assistant uses OpenAI's GPT-3 model for generating responses and the ElevenLabs API for voice output.
 
 ## Overview
 
-The voice assistant is activated by a wake word, in this case, "Computer". Upon detecting the wake word, the assistant listens for a command or query. This input is processed, and a response is generated using GPT-4. The response is then converted to speech using Eleven Labs' text-to-speech capabilities.
+The voice assistant is activated by a wake word, in this case, "Computer". Upon detecting the wake word, the assistant listens for a command or query. This input is processed, and a response is generated using GPT-3. The response is then converted to speech using Eleven Labs' text-to-speech capabilities.
 
 ## Features
 
