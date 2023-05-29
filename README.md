@@ -22,7 +22,7 @@ The repository contains a single Python script and config file that includes all
 - **'pyaudio'**: For capturing audio input
 - **'speech_recognition'**: For converting speech to text
 - **'pygame'**: For playing audio files
-- **'openai'**: For interacting with the GPT-4 API
+- **'openai'**: For interacting with the GPT-4 or GPT-3 API
 - **'elevenlabs'**: For text-to-speech conversion
 
 ## Requirements
